@@ -8,7 +8,8 @@ df = read_csv("data/weatherAUS.csv")
 
 # Create a scatter plot of Humidity9am and Temp9am a location
 
-city = "Perth"
+
+city = "Newcastle"
 
 scatter_plot = 
 df %>%
@@ -18,4 +19,3 @@ df %>%
 
 # Save the plot in graphics/
 ggsave(filename = "graphics/scatter-temp-humidity2.png", plot = scatter_plot)
-

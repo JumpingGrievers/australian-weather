@@ -8,7 +8,7 @@ df = read_csv("data/weatherAUS.csv")
 
 # Create a point plot of Humidity9am and Temp9am a location
 
-city = "Brisbane"
+city = "Brisbane 1"
 
 scatter_plot = 
 df %>%
